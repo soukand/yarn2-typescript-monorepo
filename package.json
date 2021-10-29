@@ -1,4 +1,9 @@
 {
   "name": "yarn2-typescript-monorepo",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "private": true,
+  "workspaces": [
+      "applications/*",
+      "packages/*"
+  ]
 }
