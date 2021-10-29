@@ -31,3 +31,11 @@ cd ..
 cd packages/logger
 yarn init
 ```
+
+Configuring typescript for the project for VScode editor.
+https://yarnpkg.com/getting-started/editor-sdks#vscode
+```sh
+yarn add -D typescript
+yarn dlx @yarnpkg/sdks vscode
+yarn plugin import typescript
+```

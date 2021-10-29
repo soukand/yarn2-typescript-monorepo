@@ -1,4 +1,15 @@
 {
-  "name": "logger",
-  "packageManager": "yarn@3.1.0"
+  "name": "@app/logger",
+  "packageManager": "yarn@3.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

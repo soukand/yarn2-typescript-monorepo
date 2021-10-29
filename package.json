@@ -3,7 +3,10 @@
   "packageManager": "yarn@3.1.0",
   "private": true,
   "workspaces": [
-      "applications/*",
-      "packages/*"
-  ]
+    "applications/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
