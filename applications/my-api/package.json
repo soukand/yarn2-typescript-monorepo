@@ -1,4 +1,14 @@
 {
   "name": "my-api",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index"
+  },
+  "dependencies": {
+    "@app/logger": "workspace:^"
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "pipedrive/typescript"
+  ],
+  "root": true
+}

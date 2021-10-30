@@ -6,7 +6,14 @@
     "applications/*",
     "packages/*"
   ],
+  "scripts": {
+    "build": "sh scripts/build-source.sh"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "7",
+    "eslint-config-pipedrive": "^9.1.0",
     "typescript": "^4.4.4"
   }
 }

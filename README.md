@@ -39,3 +39,6 @@ yarn add -D typescript
 yarn dlx @yarnpkg/sdks vscode
 yarn plugin import typescript
 ```
+
+
+https://github.com/yarnpkg/berry/issues/3578
