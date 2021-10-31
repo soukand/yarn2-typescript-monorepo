@@ -1,6 +1,15 @@
 # yarn2-typescript-monorepo
 Example repository about how to set up yarn monorepo with application and packages using typescript.
 
+## First time here?
+To start lets install all the dependencies and build the source
+```sh
+yarn
+yarn build
+```
+You are now good to go
+When accessing `.ts or .svelte` files VS code asks you to allow typescript version from workspace.
+
 ## Steps taken to create it
 Initialize yarn project
 ```sh
