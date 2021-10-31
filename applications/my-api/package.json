@@ -2,14 +2,17 @@
   "name": "my-api",
   "packageManager": "yarn@3.1.0",
   "devDependencies": {
+    "forever": "^4.0.1",
     "typescript": "^4.4.4"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index",
+    "start": "node dist/my-api.js",
+    "start-dev": "forever --spinSleepTime=2000 -w --watchDirectory dist dist/my-api.js",
     "build-watch": "tsc --watch"
   },
   "dependencies": {
-    "@app/logger": "workspace:^"
+    "@app/logger": "workspace:^",
+    "fastify": "^3.22.1"
   }
 }
