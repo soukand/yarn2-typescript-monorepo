@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
 export let name = 'Pablo';
 export let visitorCount = 0;
 

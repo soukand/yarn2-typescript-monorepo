@@ -1,3 +1,5 @@
+trap "echo FAILED; exit 1" ERR
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 PACKAGES_DIR=$DIR/../packages
@@ -11,6 +13,9 @@ yarn install
 
 for package in "${PACKAGES[@]}"
 do
+    echo
+    echo ----------------------------------
+    echo building package $package
     cd $PACKAGES_DIR/$package
     yarn build
 done

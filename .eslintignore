@@ -2,3 +2,4 @@
 .vscode
 .yarn
 .scripts
+applications/webapp/public/build

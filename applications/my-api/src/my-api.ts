@@ -1,8 +1,7 @@
 import { logger } from '@app/logger';
 import { fastify } from 'fastify';
 
-const app = fastify({
-});
+const app = fastify({});
 
 let counter = 1;
 

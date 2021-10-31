@@ -40,5 +40,13 @@ yarn dlx @yarnpkg/sdks vscode
 yarn plugin import typescript
 ```
 
-
+Cannot use eslint 8 until this issue is fixed
 https://github.com/yarnpkg/berry/issues/3578
+
+**IMPORTANT** After you add library to root that is used by VScode editor you need to execute `yarn dlx @yarnpkg/sdks vscode` command
+https://yarnpkg.com/getting-started/editor-sdks#editor-setup
+
+Implementing constraints.
+`yarn plugin import constraints`
+
+Constraints can be found from `constraints.pro`
