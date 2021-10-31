@@ -1,7 +1,7 @@
 # yarn2-typescript-monorepo
 Example repository about how to set up yarn monorepo with application and packages using typescript.
 
-## Steps
+## Steps taken to create it
 Initialize yarn project
 ```sh
 yarn init -2
