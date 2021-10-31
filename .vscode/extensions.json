@@ -2,6 +2,7 @@
   "recommendations": [
     "arcanis.vscode-zipfs",
     "editorconfig.editorconfig",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "svelte.svelte-vscode"
   ]
 }

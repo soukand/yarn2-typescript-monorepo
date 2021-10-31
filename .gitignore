@@ -7,4 +7,5 @@
 #!/.yarn/cache
 /.pnp.*
 
-dist
+applications/**/dist
+packages/**/dist

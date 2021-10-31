@@ -1,5 +1,5 @@
 import { info } from '@app/logger';
 
 setInterval(() => {
-	info('test');
+	info('This is a log from api server');
 }, 1000);

@@ -6,7 +6,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index"
+    "start": "node dist/index",
+    "build-watch": "tsc --watch"
   },
   "dependencies": {
     "@app/logger": "workspace:^"

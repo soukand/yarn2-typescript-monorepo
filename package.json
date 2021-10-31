@@ -7,13 +7,15 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "sh scripts/build-source.sh"
+    "build": "yarn build-packages; yarn build-applications",
+    "build-applications": "sh scripts/build-applications.sh",
+    "build-packages": "sh scripts/build-packages.sh",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "eslint": "7",
-    "eslint-config-pipedrive": "^9.1.0",
-    "typescript": "^4.4.4"
+    "eslint-config-pipedrive": "^9.1.0"
   }
 }

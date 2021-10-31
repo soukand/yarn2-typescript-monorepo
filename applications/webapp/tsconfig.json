@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /**"target": "es2017",
+
+      Svelte Preprocess cannot figure out whether you have a value or a type, so tell TypeScript
+      to enforce using `import type` instead of `import` for Types.
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+*/
+    "importsNotUsedAsValues": "error",
+    "target": "es2017",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "types": ["node", "svelte"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
