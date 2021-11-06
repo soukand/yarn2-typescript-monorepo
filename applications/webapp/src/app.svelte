@@ -1,6 +1,18 @@
 <script lang="ts">
+import { onMount } from 'svelte';
+
 export let name = 'Pablo';
 export let visitorCount = 0;
+
+onMount(() => {
+	// eslint-disable-next-line no-console
+	console.log('app mounted');
+
+	return () => {
+		// eslint-disable-next-line no-console
+		console.log('app unmounted');
+	};
+});
 
 fetch('http://localhost:5001/visitsCounter')
 	.then(response => response.json() as Promise<{ count: number }>)

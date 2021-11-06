@@ -1,6 +1,15 @@
 # yarn2-typescript-monorepo
 Example repository about how to set up yarn monorepo with application and packages using typescript.
 
+## After cloning
+You need to set VScode setting:
+```json
+{
+    "svelte.language-server.ls-path": ".yarn/sdks/svelte-language-server/bin/server.js"
+}
+```
+You need to accept typescript workspace version.
+
 ## Steps
 Initialize yarn project
 ```sh
