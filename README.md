@@ -2,6 +2,8 @@
 Example repository about how to set up yarn monorepo with application and packages using typescript.
 
 ## After cloning
+https://github.com/sveltejs/language-tools/issues/1051
+
 You need to set VScode setting:
 ```json
 {
